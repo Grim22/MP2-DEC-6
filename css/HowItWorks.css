@@ -1,0 +1,487 @@
+/* HOW IT WORKS SECTION */
+.faqs-container{
+  background: linear-gradient(to bottom, #f0f0f0, #f0f0f0,  #f0f0f0,  #f0f0f0,  #f0f0f0, #9b9b9b);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.faqs-container .heading-container{
+  margin: 0;
+}
+
+.faqs-container .heading{
+  font-size: 2.3em;
+  font-weight: 600;
+  font-family: 'Saira';
+
+  margin: 0;
+}
+
+.steps-container{
+  width: 75%;
+  height: 45vh;
+  margin-top: 5vh;
+
+  display: flex;
+  gap: 10vw;
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-container .step1, .step2, .step3{
+  width: 40%;
+}
+
+/* CONTENTS */
+.steps-container img{
+  width: 100%;
+  height: 100%;
+
+  width: 5vw;
+}
+
+.steps-container .heading{
+  font-size: 1em;
+  margin-top: 5vh;
+}
+
+.steps-container .subtext{
+  color: #303030;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 5vh;
+  line-height: 3vh;
+  text-align: justify;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .faqs-container{
+    background: linear-gradient(to bottom, #f0f0f0, #f0f0f0,  #f0f0f0,  #f0f0f0,  #f0f0f0, #9b9b9b);
+    width: 100%;
+    height: 80vh;
+    height: 80dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .faqs-container .heading-container{
+    margin: 0;
+  }
+  
+  .faqs-container .heading{
+    font-size: 2.3em;
+    font-weight: 600;
+    font-family: 'Saira';
+  
+    margin: 0;
+  }
+  
+  .steps-container{
+    width: 75%;
+    height: 45vh;
+    margin-top: 5vh;
+  
+    display: flex;
+    gap: 6vw;
+    
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .steps-container .step1, .step2, .step3{
+    width: 40%;
+  }
+  
+  /* CONTENTS */
+  .steps-container img{
+    width: 100%;
+    height: 100%;
+  
+    width: 7vw;
+  }
+  
+  .steps-container .heading{
+    font-size: 1em;
+    margin-top: 5vh;
+  }
+  
+  .steps-container .subtext{
+    color: #303030;
+    font-size: .88em;
+    font-weight: 400;
+    margin-top: 5vh;
+    line-height: 2.5vh;
+    text-align: justify;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .faqs-container{
+    background: linear-gradient(to bottom, #f0f0f0, #f0f0f0,  #f0f0f0,  #f0f0f0,  #f0f0f0, #9b9b9b);
+    width: 100%;
+    height: 80vh;
+    height: 80dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .faqs-container .heading-container{
+    margin: 0;
+  }
+  
+  .faqs-container .heading{
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Saira';
+  
+    margin: 0;
+  }
+  
+  .steps-container{
+    width: 75%;
+    height: 45vh;
+    margin-top: 5vh;
+  
+    display: flex;
+    gap: 5vw;
+    
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .steps-container .step1, .step2, .step3{
+    width: 40%;
+  }
+  
+  /* CONTENTS */
+  .steps-container img{
+    width: 100%;
+    height: 100%;
+  
+    width: 8vw;
+  }
+  
+  .steps-container .heading{
+    font-size: 1em;
+    margin-top: 5vh;
+  }
+  
+  .steps-container .subtext{
+    color: #303030;
+    font-size: .88em;
+    font-weight: 400;
+    margin-top: 5vh;
+    line-height: 2.5vh;
+    text-align: justify;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .faqs-container{
+    background: linear-gradient(to bottom, #f0f0f0, #f0f0f0,  #f0f0f0,  #f0f0f0,  #f0f0f0, #9b9b9b);
+    width: 100%;
+    height: 80vh;
+    height: 110vh;
+    display: flex;
+    padding: 10vh 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .faqs-container .heading-container{
+    margin: 0;
+  }
+  
+  .faqs-container .heading{
+    font-size: 1.7em;
+    font-weight: 600;
+    font-family: 'Saira';
+  
+    margin: 0;
+  }
+  
+  .steps-container{
+    width: 75%;
+    height: 45vh;
+    margin-top: 5vh;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps-container{
+    display: flex;
+    align-items: center;
+    justify-content: f;
+  }
+  
+  .steps-container .step1, .step2, .step3{
+    width: 80%;
+  }
+  
+  /* CONTENTS */
+  .steps-container img{
+    width: 100%;
+    height: 100%;
+  
+    width: 8vw;
+  }
+  
+  .steps-container .heading{
+    font-size: .9em;
+    margin-top: 2vh;
+  }
+  
+  .steps-container .subtext{
+    color: #303030;
+    font-size: .8em;
+    font-weight: 400;
+    margin-top: 2vh;
+    line-height: 2.6vh;
+    text-align: center;
+  }
+  
+  
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+  .faqs-container{
+    background: linear-gradient(to bottom, #f0f0f0, #f0f0f0,  #f0f0f0,  #f0f0f0,  #f0f0f0, #9b9b9b);
+    width: 100%;
+    height: 200vh;
+    height: 200vh;
+    display: flex;
+    padding: 10vh 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .faqs-container .heading-container{
+    margin: 0;
+  }
+  
+  .faqs-container .heading{
+    font-size: 1.4em;
+    font-weight: 600;
+    font-family: 'Saira';
+  
+    margin: 0;
+  }
+  
+  .steps-container{
+    width: 75%;
+    height: 45vh;
+    margin-top: 5vh;
+  
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .steps-container .step1, .step2, .step3{
+    width: 100%;
+    padding: 5vh 0 5vh 0;
+  }
+  
+  /* CONTENTS */
+  .steps-container img{
+    width: 20%;
+    height: auto;
+  }
+  
+  .steps-container .heading{
+    font-size: 1em;
+    margin-top: 2vh;
+  }
+  
+  .steps-container .subtext{
+    color: #303030;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 2vh;
+    line-height: 4vh;
+    text-align: center;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+  .faqs-container{
+    background: linear-gradient(to bottom, #f0f0f0, #f0f0f0,  #f0f0f0,  #f0f0f0,  #f0f0f0, #9b9b9b);
+    width: 100%;
+    height: 250vh;
+    height: 250dvh;
+    display: flex;
+    padding: 10vh 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .faqs-container .heading-container{
+    margin: 0;
+  }
+  
+  .faqs-container .heading{
+    font-size: 1.4em;
+    font-weight: 600;
+    font-family: 'Saira';
+  
+    margin: 0;
+  }
+  
+  .steps-container{
+    width: 75%;
+    height: 45vh;
+    margin-top: 5vh;
+  
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .steps-container .step1, .step2, .step3{
+    width: 100%;
+    padding: 5vh 0 5vh 0;
+  }
+  
+  /* CONTENTS */
+  .steps-container img{
+    width: 20%;
+    height: auto;
+  }
+  
+  .steps-container .heading{
+    font-size: 1em;
+    margin-top: 2vh;
+  }
+  
+  .steps-container .subtext{
+    color: #303030;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 2vh;
+    line-height: 4vh;
+    text-align: center;
+  }
+  
+  
+}
+
+
+
+
+
+

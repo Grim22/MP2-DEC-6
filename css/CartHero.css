@@ -1,0 +1,95 @@
+
+
+.cart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart .empty{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.cart .empty p{
+    color: #f0f0f0;
+    font-size: 3em;
+    font-weight: 300;
+    font-family: 'Saira';
+    margin-top: 100px;
+}
+
+.cart .empty button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: Roboto;
+    letter-spacing: 0.05em;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 1em;
+
+    margin: 30px;
+}
+
+
+.cart .empty button .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cart .empty button:hover {
+    color: black;
+    background: white;
+}
+
+.cart .carthero{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cart .carthero img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.cart .carthero p{
+    color: #f0f0f0;
+    font-size: 7em;
+    font-weight: 500;
+    font-family: 'Saira';
+
+    position: relative;
+    z-index: 5;
+}

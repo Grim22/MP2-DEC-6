@@ -1,0 +1,167 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.dark{ 
+    color: black !important;
+}
+
+.top-bar{
+    width: 100%;
+    height: 8vh;
+    height: 8dvh;
+    background-color:  rgb(34, 34, 34, .3);
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.top-bar .btn-container{
+    display: flex;
+    align-items: center;
+}
+
+.top-bar button{
+    color: #f0f0f0;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Saira';
+    cursor: pointer;
+}
+
+.top-bar button:hover{
+    color:  rgb(255, 188, 0);
+}
+
+.top-bar .btn-container svg{
+    color: #f0f0f0;
+    width: 30px;
+    height: auto;
+}
+
+
+.seemore-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seemore-container .hero-section{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.seemore-container .hero-section img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.seemore-container .hero-section .text-container{
+    width: 80%;
+    height: auto;
+
+    position: absolute;
+    top: 15%;
+    left: 9%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.seemore-container .text-container .heading p{
+    color: #f0f0f0;
+    font-size: 3.3em;
+    font-weight: 600;
+    font-family: 'Saira';
+}
+
+.seemore-container .text-container .subtext p{
+    color: #f0f0f0;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Saira';
+}
+
+
+.seemore-container .text-container .price p{
+    color: #f0f0f0;
+    font-size: 2.5em;
+    font-weight: 200;
+    font-family: 'Saira';
+}
+
+.seemore-container .pic-area{
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    bottom: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seemore-container .pic-area img{
+    width: 80vw;
+    max-width: 800px;
+    height: auto;
+    transition: .3s ease-in-out;
+}
+
+.seemore-container .pic-area img:hover{
+    scale: 1.2;
+}
+
+.seemore-container .buttons-container{
+    width: 200px;
+    height: auto;
+
+    position: absolute;
+    bottom:5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seemore-container .buttons-container button{
+    background-color: transparent;
+    border: none;
+}
+
+.seemore-container .buttons-container svg:hover{
+    color: #ffbc00;
+    scale: 1.2;
+}
+
+.seemore-container .buttons-container svg{
+    color: #f0f0f0;
+    width: 30px;
+    height: auto;
+}
+
+
+
+.seemore-container .buttons-container a{
+    padding: 0;
+}
+

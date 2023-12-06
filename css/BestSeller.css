@@ -1,0 +1,625 @@
+
+/* BEST SELLER SECTION */
+.BS-section{
+  display: flex;
+}
+
+
+/* BS LEFT SIDE */
+.BS-left{
+  width: 50%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.BS-left .heading {
+  color: #f0f0f0;
+  font-size: 2.8em;
+  font-weight: 600;
+  width: 100%;
+
+  position: relative;
+  left: 40%;
+  top: 20%;
+}
+
+.BS-left .subtext{
+  color: #969696;
+  font-size: 1em;
+  font-weight: 400;
+  width: 100%;
+
+  position: relative;
+  left: 40%;
+  top: 20%;
+}
+
+.BS{
+  width: 88%;
+  
+  position: relative;
+  left: 30%;
+  top: 30%;
+}
+
+
+
+
+/*BS RIGHT SIDE */
+.BS-right{
+  background-color: #222222;
+  width: 50%;
+  height: 100vh;
+  height: 100dvh;
+  margin: 0;
+}
+
+
+.BS-right .text{
+  color: #969696;
+  font-size: 1em;
+  font-weight: 400;
+  width: 40%;
+
+  position: relative;
+  left: 35%;
+  top: 55%;
+}
+
+/* DISCOVER MORE BUTTON */
+.discover-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #f0f0f0;
+
+  font-size: 0.8em;
+  font-weight: 100;
+  text-transform: uppercase;
+
+  position: relative;
+  left: 55%;
+  top: 57%;
+}
+
+.discover-btn:hover{
+  color: #ffbc00;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1440px) {
+  
+/* BEST SELLER SECTION */
+.BS-section{
+  display: flex;
+}
+
+
+/* BS LEFT SIDE */
+.BS-left{
+  width: 50%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.BS-left .heading {
+  color: #f0f0f0;
+  font-size: 2.9em;
+  font-weight: 600;
+  width: 100%;
+  padding: 10px;
+
+  position: relative;
+  left: 35%;
+  top: 20%;
+}
+
+.BS-left .subtext{
+  color: #969696;
+  font-size: 1.2em;
+  font-weight: 400;
+  width: 100%;
+  padding: 10px;
+
+  position: relative;
+  left: 35%;
+  top: 20%;
+}
+
+.BS{
+  width: 106%;
+  
+  position: relative;
+  left: 20%;
+  top: 30%;
+  padding: 50px;
+}
+
+
+
+
+/*BS RIGHT SIDE */
+.BS-right{
+  background-color: #222222;
+  width: 50%;
+  height: 100vh;
+  height: 100dvh;
+  margin: 0;
+}
+
+
+.BS-right .text{
+  color: #969696;
+  font-size: 1.1em;
+  font-weight: 400;
+  width: 40%;
+  padding: 10px;
+
+  position: relative;
+  left: 40%;
+  top: 55%;
+}
+
+/* DISCOVER MORE BUTTON */
+.discover-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #f0f0f0;
+
+  font-size: 0.9em;
+  font-weight: 100;
+  padding: 10px;
+  text-transform: uppercase;
+
+  position: relative;
+  left: 55%;
+  top: 57%;
+}
+
+.discover-btn:hover{
+  color: #ffbc00;
+}
+
+
+}
+
+
+@media screen and (max-width:1440px) {
+  .BS{
+    width: 106%;
+    
+    position: relative;
+    left: 20%;
+    top: 20%;
+    padding: 50px;
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+  
+  /* BEST SELLER SECTION */
+  .BS-section{
+    display: flex;
+  }
+  
+  
+  /* BS LEFT SIDE */
+  .BS-left{
+    width: 50%;
+    height: 100vh;
+    height: 100dvh;
+  }
+  
+  .BS-left .heading {
+    color: #f0f0f0;
+    font-size: 2..5em;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+  
+    position: relative;
+    left: 35%;
+    top: 20%;
+  }
+  
+  .BS-left .subtext{
+    color: #969696;
+    font-size: .8em;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px;
+  
+    position: relative;
+    left: 35%;
+    top: 20%;
+  }
+  
+  .BS{
+    width: 124%;
+    
+    position: relative;
+    left: 0%;
+    top: 25%;
+    padding: 50px;
+  }
+  
+  
+  
+  
+  /*BS RIGHT SIDE */
+  .BS-right{
+    background-color: #222222;
+    width: 50%;
+    height: 100vh;
+    height: 100dvh;
+    margin: 0;
+  }
+  
+  
+  .BS-right .text{
+    color: #969696;
+    font-size: .9em;
+    font-weight: 400;
+    width: 40%;
+    padding: 10px;
+  
+    position: relative;
+    left: 45%;
+    top: 55%;
+  }
+  
+  /* DISCOVER MORE BUTTON */
+  .discover-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #f0f0f0;
+  
+    font-size: 0.7em;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+  
+    position: relative;
+    left: 55%;
+    top: 57%;
+  }
+  
+  .discover-btn:hover{
+    color: #ffbc00;
+  }
+  
+  
+  }
+
+
+
+  
+
+
+@media screen and (max-width:768px) {
+  
+  /* BEST SELLER SECTION */
+  .BS-section{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  /* BS LEFT SIDE */
+  .BS-left{
+    width: 100%;
+    height: 60vh;
+    height: 60dvh;
+    padding-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .BS-left .heading {
+    color: #f0f0f0;
+    font-size: 2.4em;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+
+    position: static;
+  }
+  
+  .BS-left .subtext{
+    color: #969696;
+    font-size: 1em;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px;
+
+    position: static;
+  }
+  
+  .BS{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: static;
+    
+    padding: 50px 0 0 0;
+  }
+  
+  
+  
+  
+  /*BS RIGHT SIDE */
+  .BS-right{
+    background-color: transparent;
+    width: 100%;
+    height: 30vh;
+    height: 30dvh;
+    
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+    justify-content: center;
+
+  }
+  
+  
+  .BS-right .text{
+    color: #969696;
+    font-size: .8em;
+    font-weight: 400;
+    width: 60%;
+    padding: 10px;
+    
+    display: flex;
+    position: static;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* DISCOVER MORE BUTTON */
+  .discover-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #f0f0f0;
+  
+    font-size: 0.7em;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+  
+    position: static;
+    
+  }
+  
+  .discover-btn:hover{
+    color: #ffbc00;
+  }
+  
+  
+  }
+
+
+
+
+
+  @media screen and (max-width:425px) {
+  
+    /* BEST SELLER SECTION */
+    .BS-section{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    
+    /* BS LEFT SIDE */
+    .BS-left{
+      width: 100%;
+      height: 55vh;
+      height: 55dvh;
+  
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    .BS-left .heading {
+      color: #f0f0f0;
+      font-size: 2em;
+      font-weight: 600;
+  
+      position: static;
+    }
+    
+    .BS-left .subtext{
+      color: #969696;
+      font-size: 1em;
+      font-weight: 400;
+      width: 100%;
+      padding: 10px;
+  
+      position: static;
+    }
+    
+    .BS{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      position: static;
+      
+      padding: 50px 0 0 0;
+    }
+    
+    
+    
+    
+    /*BS RIGHT SIDE */
+    .BS-section .BS-right{
+      background-color: transparent;
+      width: 100%;
+      height: 55vh;
+      height: 55dvh;
+      
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+      justify-content: center;
+  
+    }
+    
+    
+    .BS-right .text{
+      color: #969696;
+      font-size: .8em;
+      font-weight: 400;
+      width: 60%;
+      padding: 10px;
+      
+      display: flex;
+      position: initial;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    /* DISCOVER MORE BUTTON */
+    .discover-btn{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #f0f0f0;
+    
+      font-size: 0.7em;
+      font-weight: 100;
+      padding: 10px;
+      text-transform: uppercase;
+    
+      position: static;
+      
+    }
+    
+    .discover-btn:hover{
+      color: #ffbc00;
+    }
+    
+    
+    }
+  
+  
+
+
+
+  
+@media screen and (max-width:320px) {
+  
+  /* BEST SELLER SECTION */
+  .BS-section{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  /* BS LEFT SIDE */
+  .BS-left{
+    width: 100%;
+    height: 50vh;
+    height: 50dvh;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .BS-left .heading {
+    color: #f0f0f0;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+
+    position: static;
+  }
+  
+  .BS-left .subtext{
+    color: #969696;
+    font-size: .8em;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px;
+
+    position: static;
+  }
+  
+  .BS{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: static;
+    display: block;
+    
+    padding: 50px 0 50px 0;
+  }
+  
+  
+  
+  
+  /*BS RIGHT SIDE */
+  .BS-right{
+    background-color: pink;
+    width: 100%;
+    height: 85vh;
+    height: 85dvh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .BS-right p{
+    color: #969696;
+    font-size: .8em;
+    font-weight: 400;
+    width: 60%;
+    padding:50px;
+    
+    display: block;
+    position: static;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* DISCOVER MORE BUTTON */
+  .discover-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #f0f0f0;
+  
+    font-size: 0.7em;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+  
+    position: static;
+    
+  }
+  
+  .discover-btn:hover{
+    color: #ffbc00;
+  }
+  
+  
+  }
